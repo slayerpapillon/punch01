@@ -1,401 +1,416 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Découvrez l’univers du rhum. Un hommage à l’esprit des îles et au goût authentique.">
-  <title>L'Art du Punch</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      color: #fff;
-      background-color: #1a120b;
-      line-height: 1.6;
-    }
-    header {
-      background: url('https://images.unsplash.com/photo-1610563166150-0b0e5ac21709') center/cover no-repeat;
-      text-align: center;
-      padding: 40px 20px;
-    }
-    header h1 {
-      font-size: 3em;
-      margin: 0;
-      text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
-    }
-    header p {
-      font-size: 1.2em;
-      color: #f0e3c1;
-    }
-    section {
-      padding: 20px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-    section h2 {
-      text-align: center;
-      margin-bottom: 25px;
-      color: #d4a017;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-    }
-	section h3 {
-      text-align: Left;
-      margin-bottom: 25px;
-      color: #d4a017;
-      letter-spacing: 2px;
-    }
-	section h4 {
-      text-align: center;
-      margin-bottom: 25px;
-      letter-spacing: 2px;
-    }
-    .intro {
-      text-align: center;
-      font-size: 1.2em;
-      color: #f4ecd6;
-    }
-    .gallery img {
-      width: 100%;
-      max-width: 300px;
-      border-radius: 8px;
-      margin: 10px;
-      transition: transform 0.3s;
-    }
-    .gallery img:hover {
-      transform: scale(1.05);
-    }
-    .gallery {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-	table {
-      width: 100%;
-      border-collapse: collapse;
-      background-color: #24150b;
-      margin-top: 20px;
-    }
-    th, td {
-      border: 1px solid #d4a017;
-      padding: 12px;
-      text-align: center;
-    }
-    th {
-      background-color: #3b2211;
-      color: #f0e3c1;
-      text-transform: uppercase;
-    }
-    td {
-      color: #f4ecd6;
-    }
-    footer {
-      background-color: #0d0a07;
-      text-align: center;
-      padding: 30px;
-      color: #aaa;
-      font-size: 0.9em;
-    }
-    a {
-      color: #d4a017;
-      text-decoration: none;
-    }
-  </style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Découvrez l’univers du rhum. Un hommage à l’esprit des îles et au goût authentique."
+    />
+    <title>L'Art du Punch</title>
+    <style>
+      body {
+        font-family: "Segoe UI", sans-serif;
+        margin: 0;
+        color: #fff;
+        background-color: #1a120b;
+        line-height: 1.6;
+        /* background: url("assets/etiquettes.png") center; */
+      }
+      header {
+        background: url("assets/Zeke.jpeg") center/cover no-repeat;
+        text-align: center;
+        padding: 40px 20px;
+      }
+      header h1 {
+        font-size: 3em;
+        margin: 0;
+        text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+      }
+      header p {
+        font-size: 1.2em;
+        color: #f0e3c1;
+      }
+      section {
+        padding: 20px 20px;
+        max-width: 1000px;
+        margin: auto;
+      }
+      section h2 {
+        text-align: center;
+        margin-bottom: 25px;
+        color: #d4a017;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+      section h3 {
+        text-align: Left;
+        margin-bottom: 25px;
+        color: #d4a017;
+        letter-spacing: 2px;
+      }
+      section h4 {
+        text-align: center;
+        margin-bottom: 25px;
+        letter-spacing: 2px;
+      }
+      .intro {
+        text-align: center;
+        font-size: 1.2em;
+        color: #f4ecd6;
+      }
+      .textintro {
+        text-align: center;
+        font-size: 1.6em;
+        color: #ffffff;
+        text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+      }
+      .gallery img {
+        width: 100%;
+        max-width: 300px;
+        border-radius: 8px;
+        margin: 10px;
+        transition: transform 0.3s;
+      }
+      .gallery img:hover {
+        transform: scale(1.05);
+      }
+      .gallery {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: #24150b;
+        margin-top: 20px;
+      }
+      th,
+      td {
+        border: 1px solid #d4a017;
+        padding: 12px;
+        text-align: center;
+      }
+      th {
+        background-color: #3b2211;
+        color: #f0e3c1;
+        text-transform: uppercase;
+      }
+      td {
+        color: #f4ecd6;
+      }
+      footer {
+        background-color: #0d0a07;
+        text-align: center;
+        padding: 30px;
+        color: #aaa;
+        font-size: 0.9em;
+      }
+      a {
+        color: #d4a017;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>L'Art du Punch</h1>
+      <p class="textintro">
+        Explorez la richesse, les arômes et les traditions de ce spiritueux
+        mythique
+      </p>
+    </header>
 
-  <header>
-    <h1>L'Art du Punch</h1>
-    <p>Explorez la richesse, les arômes et les traditions de ce spiritueux mythique</p>
-  </header>
+    <section id="presentation">
+      <h2>Un héritage des îles</h2>
+      <p class="intro">
+        Né de la canne à sucre et du soleil tropical, le Punch est bien plus
+        qu’un spiritueux : c’est une histoire, une culture, un art. Des
+        plantations des Antilles aux distilleries d’Amérique latine, chaque
+        bouteille raconte un voyage.
+      </p>
+    </section>
 
-  <section id="presentation">
-    <h2>Un héritage des îles</h2>
-    <p class="intro">
-      Né de la canne à sucre et du soleil tropical, le Punch est bien plus qu’un spiritueux : c’est une histoire, une culture, un art.
-      Des plantations des Antilles aux distilleries d’Amérique latine, chaque bouteille raconte un voyage.
-    </p>
-  </section>
-
-  <section id="types">
-    <h2>Nos Punch</h2>
-	<p class="intro">
-      Retrouvez tous nos punchs faits maison, avec des produits provenant uniquement des Antilles.
-	  Contenant d’1 Litre. (Egalement 75cl , 50cl, 33cl et 25cl)
-    </p>
-	<h3>Punchs à 30€</h3>
-	<table>
-      <tr>
-        <th>Nom</th>
-        <th>Type de rhum</th>
-        <th>Durée de vieillissement</th>
-      </tr>
-      <tr>
-        <td>Planteur</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-      <tr>
-        <td>Punch Coco</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-      <tr>
-        <td>Punch Alexandra</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-    </table>
-	<h3>Punchs à 35€</h3>
-	<table>
-      <tr>
-        <th>Nom</th>
-        <th>Type de rhum</th>
-        <th>Durée de vieillissement</th>
-      </tr>
-      <tr>
-        <td>Punch Agrumes</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-      <tr>
-        <td>Punch Ananas</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-      <tr>
-        <td>Punch Banane</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Cacahuètes</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Cannelle</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Caramel Beurre Salé</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Céleri</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Citron Jaune</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Citron Vert</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Cristal Coco</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Cristal Coco/Ananas</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Exotique</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Fruit de la Passion</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Fruit de la Passion/Gingembre</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Fruit de la Passion/Ananas</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Gingembre</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Gingembre/Ananas</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Gingembre/Citron</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Gingembre/Safran</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Groseille</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Goyave</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Letchi</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Quenette</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Merise</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Hibiscus</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Méli-Mélo</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Pomme Liane</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Menthe Basilic</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Mangue</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Shrubb</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Vanille</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Liqueur d’Hibiscus</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Raisins de bort de Mer</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-    </table>
-	<h3>Punchs à 38€</h3>
-	<table>
-      <tr>
-        <th>Nom</th>
-        <th>Type de rhum</th>
-        <th>Durée de vieillissement</th>
-      </tr>
-      <tr>
-        <td>Le Redresseur</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-      <tr>
-        <td>Punch Gingembre Piment</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-      <tr>
-        <td>Punch Gingembre Piment Menthe</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Basilic</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-	  <tr>
-        <td>Punch Piment Antillais</td>
-        <td>Blanc</td>
-        <td>3 mois</td>
-      </tr>
-    </table>
-	<div class="gallery">
-      <img src="assets/Bouteilles.jpg" alt="Verre de rhum à la dégustation">
-      <img src="assets/35CL5.jpeg" alt="Verre de rhum à la dégustation">
-      <img src="assets/35CLx4.jpeg" alt="Verre de rhum à la dégustation">
-    </div>
-    <!-- <ul> -->
+    <section id="types">
+      <h2>Nos Punch</h2>
+      <p class="intro">
+        Retrouvez tous nos punchs faits maison, avec des produits provenant
+        uniquement des Antilles. Contenant d’1 Litre. (Egalement 75cl , 50cl,
+        33cl et 25cl)
+      </p>
+      <h3>Punchs à 30€</h3>
+      <table>
+        <tr>
+          <th>Nom</th>
+          <th>Type de rhum</th>
+          <th>Durée de vieillissement</th>
+        </tr>
+        <tr>
+          <td>Planteur</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Coco</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Alexandra</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+      </table>
+      <h3>Punchs à 35€</h3>
+      <table>
+        <tr>
+          <th>Nom</th>
+          <th>Type de rhum</th>
+          <th>Durée de vieillissement</th>
+        </tr>
+        <tr>
+          <td>Punch Agrumes</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Ananas</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Banane</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Cacahuètes</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Cannelle</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Caramel Beurre Salé</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Céleri</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Citron Jaune</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Citron Vert</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Cristal Coco</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Cristal Coco/Ananas</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Exotique</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Fruit de la Passion</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Fruit de la Passion/Gingembre</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Fruit de la Passion/Ananas</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Gingembre</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Gingembre/Ananas</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Gingembre/Citron</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Gingembre/Safran</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Groseille</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Goyave</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Letchi</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Quenette</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Merise</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Hibiscus</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Méli-Mélo</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Pomme Liane</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Menthe Basilic</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Mangue</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Shrubb</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Vanille</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Liqueur d’Hibiscus</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Raisins de bort de Mer</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+      </table>
+      <h3>Punchs à 38€</h3>
+      <table>
+        <tr>
+          <th>Nom</th>
+          <th>Type de rhum</th>
+          <th>Durée de vieillissement</th>
+        </tr>
+        <tr>
+          <td>Le Redresseur</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Gingembre Piment</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Gingembre Piment Menthe</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Basilic</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+        <tr>
+          <td>Punch Piment Antillais</td>
+          <td>Blanc</td>
+          <td>3 mois</td>
+        </tr>
+      </table>
+      <div class="gallery">
+        <img src="assets/Bouteilles.jpg" alt="Verre de rhum à la dégustation" />
+        <img src="assets/35CL5.jpeg" alt="Verre de rhum à la dégustation" />
+        <img src="assets/35CLx4.jpeg" alt="Verre de rhum à la dégustation" />
+      </div>
+      <!-- <ul> -->
       <!-- <li><strong>Rhum blanc</strong> : vif et frais, parfait pour les cocktails comme le ti-punch.</li> -->
       <!-- <li><strong>Rhum ambré</strong> : équilibré, il offre des notes boisées subtiles.</li> -->
       <!-- <li><strong>Rhum vieux</strong> : vieilli en fût, il développe profondeur et complexité aromatique.</li> -->
       <!-- <li><strong>Rhum arrangé</strong> : macéré avec des fruits et des épices, il invite à la créativité.</li> -->
-    <!-- </ul> -->
-  </section>
+      <!-- </ul> -->
+    </section>
 
-  <section id="degustation">
-    <h2>Nos Engagements</h2>
-	<h4>Qualité</h4>
-    <p class="intro">
-      Tous nos plats sont fait « maison ». Nous nous engageons à être le plus transparent possible sur nos produits.
-    </p>
-	<h4>Paiements</h4>
-	<p class="intro">
-      Nous acceptons les espèces et les cartes bancaires comme moyen de paiements.
-    </p>
-	<h4>Société</h4>
-	<p class="intro">
-      Nous sommes une entreprise officielle. Numéro de Siret sur demande.
-    </p>
-    <!-- <div class="gallery"> -->
+    <section id="degustation">
+      <h2>Nos Engagements</h2>
+      <h4>Qualité</h4>
+      <p class="intro">
+        Tous nos plats sont fait « maison ». Nous nous engageons à être le plus
+        transparent possible sur nos produits.
+      </p>
+      <h4>Paiements</h4>
+      <p class="intro">
+        Nous acceptons les espèces et les cartes bancaires comme moyen de
+        paiements.
+      </p>
+      <h4>Société</h4>
+      <p class="intro">
+        Nous sommes une entreprise officielle. Numéro de Siret sur demande.
+      </p>
+      <!-- <div class="gallery"> -->
       <!-- <img src="https://images.unsplash.com/photo-1609160947009-9d3efb929b7e" alt="Verre de rhum à la dégustation"> -->
       <!-- <img src="https://images.unsplash.com/photo-1599045118108-3f53d8e8c0e0" alt="Barriques de rhum dans une distillerie"> -->
       <!-- <img src="https://images.unsplash.com/photo-1618266909191-9357fb06b43d" alt="Cocktail au rhum sur fond tropical"> -->
-    <!-- </div> -->
-  </section>
+      <!-- </div> -->
+    </section>
 
-  <section id="contact">
-    <h2>Nous Contacter / Commander ?</h2>
-    <p class="intro">
-      Appelez Klod au +33 7 XX XX XX XX
-    </p>
-  </section>
+    <section id="contact">
+      <h2>Nous Contacter / Commander ?</h2>
+      <p class="intro">Appelez Klod au +33 7 XX XX XX XX</p>
+    </section>
 
-  <footer>
-    © 2025 L'Art du Punch — Créé avec passion et un soupçon de canne à sucre.
-  </footer>
-
-</body>
+    <footer>
+      © 2025 L'Art du Punch — Créé avec passion et un soupçon de canne à sucre.
+    </footer>
+  </body>
 </html>
